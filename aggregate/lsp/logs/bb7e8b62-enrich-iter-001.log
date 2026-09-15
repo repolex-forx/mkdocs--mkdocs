@@ -1,0 +1,44 @@
+[2026-09-15T19:46:05Z] === ENRICH ITERATION 1 START | repo=mkdocs/mkdocs sha=bb7e8b62 ===
+[2026-09-15T19:46:05Z] [iter=1] PHASE START: enrich repo=mkdocs/mkdocs sha=bb7e8b62 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bb7e8b62-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bb7e8b62185b11d9f59bb7f50b13c15134f62f8a.nq.gz
+[2026-09-15T19:46:20Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-15T19:46:31Z] [iter=1] AST store loaded triples=1465861 load_secs=10 mem_mb=894 MB
+[2026-09-15T19:46:31Z] [iter=1] Step 2: Finding LSP targets mem_mb=894 MB
+[2026-09-15T19:46:34Z] [iter=1] LSP targets found call_sites=12187 imports=0 extends=0 implements=0 secs=4
+[2026-09-15T19:46:37Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=894 MB
+[2026-09-15T19:46:46Z] [iter=1] Position index built positions=100511 nodes_with_types=124260 secs=9 mem_mb=894 MB
+[2026-09-15T19:46:46Z] [iter=1] Step 3: Starting LSP resolution mem_mb=894 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T19:46:46Z] [iter=1] Resolving target type target_type=call_site count=12187
+[2026-09-15T19:46:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=mkdocs/themes/readthedocs/js/theme.js
+[2026-09-15T19:47:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.6 files_done=3 resolved=36 errors=80 current=mkdocs/themes/mkdocs/js/base.js
+[2026-09-15T19:48:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.1 files_done=7 resolved=184 errors=129 current=mkdocs/contrib/search/lunr-language/lunr.fr.js
+[2026-09-15T19:48:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=8 resolved=184 errors=179 current=mkdocs/contrib/search/lunr-language/lunr.ru.js
+[2026-09-15T19:50:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=11 resolved=184 errors=388 current=mkdocs/contrib/search/lunr-language/lunr.it.js
+[2026-09-15T19:51:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=13 resolved=184 errors=451 current=mkdocs/contrib/search/lunr-language/lunr.hy.js
+[2026-09-15T19:52:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=16 resolved=184 errors=499 current=mkdocs/contrib/search/lunr-language/lunr.fi.js
+[2026-09-15T19:52:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=19 resolved=186 errors=549 current=mkdocs/contrib/search/lunr-language/lunr.de.js
+[2026-09-15T19:53:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.0 files_done=25 resolved=219 errors=600 current=mkdocs/contrib/search/lunr-language/lunr.nl.js
+[2026-09-15T19:53:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=28 resolved=243 errors=648 current=mkdocs/contrib/search/lunr-language/lunr.kn.js
+[2026-09-15T19:55:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=42 resolved=502 errors=809 current=mkdocs/tests/config/config_options_tests.py
+[2026-09-15T20:01:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=43 resolved=908 errors=1393 current=mkdocs/commands/build.py
+[2026-09-15T20:02:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.3 files_done=44 resolved=971 errors=1453 current=mkdocs/tests/structure/file_tests.py
+[2026-09-15T20:04:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=45 resolved=1258 errors=1673 current=mkdocs/tests/utils/babel_stub_tests.py
+[2026-09-15T20:07:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.2 files_done=47 resolved=1734 errors=1901 current=mkdocs/tests/structure/nav_tests.py
+[2026-09-15T20:08:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.1 files_done=48 resolved=1922 errors=1991 current=mkdocs/tests/config/base_tests.py
+[2026-09-15T20:08:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.8 files_done=49 resolved=2015 errors=2051 current=mkdocs/tests/livereload_tests.py
+[2026-09-15T20:10:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.4 files_done=50 resolved=2351 errors=2200 current=mkdocs/tests/config/config_options_legacy_tests.py
+[2026-09-15T20:14:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=51 resolved=2584 errors=2608 current=mkdocs/__main__.py
+[2026-09-15T20:15:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=53 resolved=2750 errors=2662 current=mkdocs/structure/nav.py
+[2026-09-15T20:16:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.3 files_done=55 resolved=2805 errors=2753 current=mkdocs/tests/build_tests.py
+[2026-09-15T20:19:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.4 files_done=56 resolved=2971 errors=3040 current=mkdocs/config/defaults.py
+[2026-09-15T20:20:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.0 files_done=57 resolved=2977 errors=3102 current=mkdocs/tests/config/config_tests.py
+[2026-09-15T20:21:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.9 files_done=59 resolved=3209 errors=3273 current=mkdocs/structure/pages.py
+[2026-09-15T20:22:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.5 files_done=61 resolved=3379 errors=3326 current=mkdocs/tests/cli_tests.py
+[2026-09-15T20:24:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.1 files_done=65 resolved=3916 errors=3476 current=mkdocs/tests/base.py
+[2026-09-15T20:25:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.9 files_done=67 resolved=4010 errors=3550 current=mkdocs/tests/integration.py
+[2026-09-15T20:25:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.6 files_done=71 resolved=4233 errors=3614 current=mkdocs/contrib/search/search_index.py
+[2026-09-15T20:26:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.5 files_done=76 resolved=4400 errors=3692 current=mkdocs/contrib/search/__init__.py
+[2026-09-15T20:27:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.1 files_done=86 resolved=4492 errors=3748 current=mkdocs/utils/templates.py
+[2026-09-15T20:27:25Z] [iter=1] Target type resolved target_type=call_site resolved=4570 errors=3764 secs=2439 mem_mb=894 MB
+[2026-09-15T20:27:35Z] [iter=1] Step 5: Writing final enrichment file triples=90262
+[2026-09-15T20:27:37Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/bb7e8b62185b11d9f59bb7f50b13c15134f62f8a.nq.gz size_kb=1775
+[2026-09-15T20:27:37Z] [iter=1] PHASE END: enrich elapsed_s=2491 elapsed_min=41.5 total_triples=90262
